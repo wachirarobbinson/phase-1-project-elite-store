@@ -1,194 +1,204 @@
 /* Global styles */
 body {
-  background-image: url("https://as1.ftcdn.net/v2/jpg/02/04/79/70/1000_F_204797040_HAw3QqnR6V7mLkycupj0AwshRZBPJKoQ.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/04/79/70/1000_F_204797040_HAw3QqnR6V7mLkycupj0AwshRZBPJKoQ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ecf2ec;
+    background-color: #33333397;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* Header styles */
 .head {
-  background-color: #589456;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
+    background-color: #589456;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
 .head h1 {
-  font-size: 50px;
-  margin: 0;
-  color: #fff;
+    font-size: 50px;
+    margin: 0;
+    color: #fff;
 }
 
 .head ul {
-  display: flex;
+    display: flex;
 }
 
 .head li {
-  margin-left: 10px;
-  cursor: pointer;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 .head li.active {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 /* Search container styles */
 .search-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 #searchInput {
-  padding: 15px;
-  margin-right: 10px;
-  width: 300px;
-  border-radius: 5px;
+    padding: 15px;
+    margin-right: 10px;
+    width: 300px;
+    border-radius: 5px;
 }
 
 #searchButton {
-  padding: 15px 20px;
-  background-color: #167b12;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+    padding: 15px 20px;
+    background-color: #167b12;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 /* Products styles */
 .products {
-  margin-top: 20px;
-  cursor: pointer;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
 }
 
 .grid-item {
-  border: 1px solid #ccc;
-  padding: 10px;
-  background-color: #0d0d0d88;
-  color: rgb(230, 235, 230);
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #0d0d0d88;
+    color: rgb(230, 235, 230);
 }
 
 .grid-item h3 {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .grid-item ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .grid-item li {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .grid-item li:hover {
-  background-color: #589456;
-  color: #fff;
+    background-color: #589456;
+    color: #fff;
 }
 
 /* Sections styles */
 section {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
+
 section h2 {
-  color: #333;
-  margin-top: 0;
+    color: #80ec7c;
+    margin-top: 0;
 }
+
 
 /* Order button styles */
 .order {
-  background-color: #589456;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 30px;
-  cursor: pointer;
+    background-color: #589456;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 /* Form styles */
 .form-container {
-  display: none;
-  padding: 20px;
-  background-color: #f9f9f9;
+    display: none;
+    padding: 20px;
+    background-color: #589456d6;
+    width: 600px;
+    border-radius: 7px;
 }
 
 .form-container form {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .form-container h2 {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .form-container label {
-  display: block;
-  margin-bottom: 5px;
-  color: #333;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
 }
 
 .form-container input[type="text"],
 .form-container input[type="tel"],
 .form-container select {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .form-container textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
 }
 
 .form-container button[type="submit"] {
-  background-color: #589456;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
+    background-color: #589456;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .form-container #successMessage {
-  color: green;
-  margin-top: 10px;
+    color: green;
+    margin-top: 10px;
 }
 
 /* Section visibility styles */
 .hidden {
-  display: none;
+    display: none;
 }
 
 img {
-  width: 300px;
+    width: 300px;
+}
+
+.hidden {
+    display: none;
 }
