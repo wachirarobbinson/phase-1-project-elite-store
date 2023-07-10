@@ -183,3 +183,19 @@ searchButton.addEventListener('click', () => {
     });
 });
 
+// Function to toggle the visibility of items
+function toggleItems(categoryId) {
+    let items = document.getElementById(categoryId + '-items');
+    let categories = document.getElementsByClassName('items');
+    for (let i = 0; i < categories.length; i++) {
+        if (categories[i].id !== categoryId + '-items') {
+            categories[i].style.display = 'none';
+        }
+    }
+    if (items.style.display === 'none') {
+        items.style.display = 'block';
+    } else {
+        items.style.display = 'none';
+    }
+}
+
