@@ -44,8 +44,13 @@ ul {
 .head li {
     margin-left: 10px;
     cursor: pointer;
+    
 }
-
+.head li:hover {
+    text-decoration: line-through;
+    background-color: #167b12;
+    
+}
 .head li.active {
     font-weight: bold;
 }
