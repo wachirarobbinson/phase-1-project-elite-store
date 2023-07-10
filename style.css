@@ -92,7 +92,11 @@ ul {
     background-color: #0d0d0d88;
     color: rgb(230, 235, 230);
 }
-
+.items p {
+    background-color: #fff;
+    color: green;
+    font-size: 20px;
+}
 .grid-item h3 {
     margin-top: 0;
 }
@@ -196,7 +200,7 @@ section h2 {
 }
 
 img {
-    width: 300px;
+    width: 440px;
 }
 
 .hidden {
